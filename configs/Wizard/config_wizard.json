@@ -1,0 +1,12 @@
+{
+    "tasks":[
+        {
+            "serviceURL":"http://sampleserver1.arcgisonline.com/ArcGIS/rest/services/Elevation/ESRI_Elevation_World/GPServer/Viewshed",
+            "name":"Get Elevation"
+        },
+        {
+            "name":"World Population",
+            "serviceURL":"http://sampleserver1.arcgisonline.com/ArcGIS/rest/services/Demographics/ESRI_Population_World/GPServer/PopulationSummary"
+        }
+    ]
+}
