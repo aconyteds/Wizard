@@ -1,1 +1,287 @@
-{"theme":{"name":"TabTheme","styles":["default","red","purple","simpleblue"],"version":"1.1"},"portalUrl":"https://dcservices.maps.arcgis.com","title":"Wizard Mock Up","subtitle":"with Web AppBuilder for ArcGIS","logo":"images\\logo.png","geometryService":"https://utility.arcgisonline.com/arcgis/rest/services/Geometry/GeometryServer","links":[{"label":"Esri","url":"http://www.arcgis.com"}],"widgetOnScreen":{"widgets":[{"uri":"themes/TabTheme/widgets/Header/Widget","positionRelativeTo":"browser","position":{"left":0,"top":0,"right":0,"height":44},"version":"1.1","id":"themes/TabTheme/widgets/Header/Widget_15","name":"Header","label":"Header"},{"uri":"themes/TabTheme/widgets/Footer/Widget","positionRelativeTo":"browser","position":{"left":0,"right":0,"bottom":0,"height":24},"version":"1.1","id":"themes/TabTheme/widgets/Footer/Widget_16","name":"Footer","label":"Footer"},{"uri":"themes/TabTheme/widgets/SidebarController/Widget","positionRelativeTo":"browser","position":{"left":0,"top":44,"bottom":24},"version":"1.1","id":"themes/TabTheme/widgets/SidebarController/Widget_17","name":"SidebarController","label":"Sidebar Controller"},{"uri":"widgets/HomeButton/Widget","position":{"left":7,"top":75},"version":"1.1","id":"widgets/HomeButton/Widget_18","positionRelativeTo":"map","name":"HomeButton","label":"Home Button"},{"uri":"widgets/Scalebar/Widget","position":{"left":10,"bottom":10},"version":"1.1","id":"widgets/Scalebar/Widget_19","positionRelativeTo":"map","name":"Scalebar","label":"Scalebar"},{"uri":"widgets/Geocoder/Widget","position":{"left":45,"top":5},"version":"1.1","id":"widgets/Geocoder/Widget_20","positionRelativeTo":"map","name":"Geocoder","label":"Geocoder"},{"uri":"widgets/Coordinate/Widget","position":{"left":160,"bottom":5},"version":"1.1","id":"widgets/Coordinate/Widget_21","positionRelativeTo":"map","name":"Coordinate","label":"Coordinate"},{"position":{"right":110,"top":10,"width":400,"height":410},"placeholderIndex":1,"id":"_22","positionRelativeTo":"map","name":"Measurement","label":"Measurement","version":"1.1","uri":"widgets/Measurement/Widget","config":"configs/Measurement/config_Measurement.json"},{"position":{"right":60,"top":10,"width":380,"height":410},"placeholderIndex":1,"id":"_23","positionRelativeTo":"map","name":"Draw","label":"Draw","version":"1.1","uri":"widgets/Draw/Widget","config":"configs/Draw/config_Draw.json"},{"position":{"right":10,"top":10,"width":380,"height":410},"placeholderIndex":1,"id":"_24","positionRelativeTo":"map","name":"Legend","label":"Legend","version":"1.1","uri":"widgets/Legend/Widget","config":"configs/Legend/config_Legend.json"},{"uri":"widgets/OverviewMap/Widget","position":{"right":0,"bottom":0},"version":"1.1","id":"widgets/OverviewMap/Widget_25","positionRelativeTo":"map","name":"OverviewMap","label":"Overview Map"},{"uri":"widgets/MyLocation/Widget","position":{"left":7,"top":110},"version":"1.1","id":"widgets/MyLocation/Widget_26","positionRelativeTo":"map","name":"MyLocation","label":"My Location"},{"uri":"widgets/AttributeTable/Widget","positionRelativeTo":"browser","position":{"bottom":24},"version":"1.1","id":"widgets/AttributeTable/Widget_27","name":"AttributeTable","label":"Attribute Table"},{"uri":"widgets/Splash/Widget","visible":false,"positionRelativeTo":"browser","version":"1.1","id":"widgets/Splash/Widget_28","position":{"left":0,"top":0},"name":"Splash","label":"Splash"}],"panel":{"uri":"jimu/PreloadWidgetIconPanel","positionRelativeTo":"map"}},"map":{"3D":false,"2D":true,"position":{"top":44,"right":0,"bottom":24,"left":55},"itemId":"6e03e8c26aad4b9c92a87c1063ddb0e3","mapOptions":{"extent":{"xmin":-8647894.287611768,"ymin":4675385.49060406,"xmax":-8559609.519942507,"ymax":4743185.13469292,"spatialReference":{"wkid":102100}}},"id":"map","portalUrl":"https://dcservices.maps.arcgis.com/"},"widgetPool":{"panel":{"uri":"themes/TabTheme/panels/TabPanel/Panel","positionRelativeTo":"browser","position":{"top":44,"left":0,"bottom":22}},"widgets":[{"uri":"widgets/LayerList/Widget","version":"1.1","id":"widgets/LayerList/Widget_14","index":2,"name":"LayerList","label":"Layer List"},{"name":"Directions","label":"Directions","version":"1.1","uri":"widgets/Directions/Widget","config":"configs/Directions/config_Directions.json","index":3,"id":"widgets/Directions/Widget_29"},{"name":"BasemapGallery","label":"Basemap Gallery","version":"1.1","uri":"widgets/BasemapGallery/Widget","config":"configs/BasemapGallery/config_Basemap Gallery.json","index":4,"id":"widgets/BasemapGallery/Widget_30"},{"name":"Print","label":"Print","version":"1.1","uri":"widgets/Print/Widget","config":"configs/Print/config_Print.json","index":5,"id":"widgets/Print/Widget_31"}],"groups":[]},"wabVersion":"1.1","isWebTier":false,"httpProxy":{"useProxy":true,"alwaysUseProxy":false,"url":"","rules":[]},"appId":""}
+{
+    "theme": {
+        "name": "TabTheme",
+        "styles": ["default", "red", "purple", "simpleblue"],
+        "version": "1.1"
+    },
+    "portalUrl": "https://dcservices.maps.arcgis.com",
+    "title": "Wizard Mock Up",
+    "subtitle": "with Web AppBuilder for ArcGIS",
+    "logo": "images\\logo.png",
+    "geometryService": "https://utility.arcgisonline.com/arcgis/rest/services/Geometry/GeometryServer",
+    "links": [{
+        "label": "Esri",
+        "url": "http://www.arcgis.com"
+    }],
+    "widgetOnScreen": {
+        "widgets": [{
+            "uri": "themes/TabTheme/widgets/Header/Widget",
+            "positionRelativeTo": "browser",
+            "position": {
+                "left": 0,
+                "top": 0,
+                "right": 0,
+                "height": 44
+            },
+            "version": "1.1",
+            "id": "themes/TabTheme/widgets/Header/Widget_15",
+            "name": "Header",
+            "label": "Header"
+        }, {
+            "uri": "themes/TabTheme/widgets/Footer/Widget",
+            "positionRelativeTo": "browser",
+            "position": {
+                "left": 0,
+                "right": 0,
+                "bottom": 0,
+                "height": 24
+            },
+            "version": "1.1",
+            "id": "themes/TabTheme/widgets/Footer/Widget_16",
+            "name": "Footer",
+            "label": "Footer"
+        }, {
+            "uri": "themes/TabTheme/widgets/SidebarController/Widget",
+            "positionRelativeTo": "browser",
+            "position": {
+                "left": 0,
+                "top": 44,
+                "bottom": 24
+            },
+            "version": "1.1",
+            "id": "themes/TabTheme/widgets/SidebarController/Widget_17",
+            "name": "SidebarController",
+            "label": "Sidebar Controller"
+        }, {
+            "uri": "widgets/HomeButton/Widget",
+            "position": {
+                "left": 7,
+                "top": 75
+            },
+            "version": "1.1",
+            "id": "widgets/HomeButton/Widget_18",
+            "positionRelativeTo": "map",
+            "name": "HomeButton",
+            "label": "Home Button"
+        }, {
+            "uri": "widgets/Scalebar/Widget",
+            "position": {
+                "left": 10,
+                "bottom": 10
+            },
+            "version": "1.1",
+            "id": "widgets/Scalebar/Widget_19",
+            "positionRelativeTo": "map",
+            "name": "Scalebar",
+            "label": "Scalebar"
+        }, {
+            "uri": "widgets/Geocoder/Widget",
+            "position": {
+                "left": 45,
+                "top": 5
+            },
+            "version": "1.1",
+            "id": "widgets/Geocoder/Widget_20",
+            "positionRelativeTo": "map",
+            "name": "Geocoder",
+            "label": "Geocoder"
+        }, {
+            "uri": "widgets/Coordinate/Widget",
+            "position": {
+                "left": 160,
+                "bottom": 5
+            },
+            "version": "1.1",
+            "id": "widgets/Coordinate/Widget_21",
+            "positionRelativeTo": "map",
+            "name": "Coordinate",
+            "label": "Coordinate"
+        }, {
+            "position": {
+                "right": 110,
+                "top": 10,
+                "width": 400,
+                "height": 410
+            },
+            "placeholderIndex": 1,
+            "id": "_22",
+            "positionRelativeTo": "map",
+            "name": "Measurement",
+            "label": "Measurement",
+            "version": "1.1",
+            "uri": "widgets/Measurement/Widget",
+            "config": "configs/Measurement/config_Measurement.json"
+        }, {
+            "position": {
+                "right": 60,
+                "top": 10,
+                "width": 380,
+                "height": 410
+            },
+            "placeholderIndex": 1,
+            "id": "_23",
+            "positionRelativeTo": "map",
+            "name": "Draw",
+            "label": "Draw",
+            "version": "1.1",
+            "uri": "widgets/Draw/Widget",
+            "config": "configs/Draw/config_Draw.json"
+        }, {
+            "position": {
+                "right": 10,
+                "top": 10,
+                "width": 380,
+                "height": 410
+            },
+            "placeholderIndex": 1,
+            "id": "_24",
+            "positionRelativeTo": "map",
+            "name": "Legend",
+            "label": "Legend",
+            "version": "1.1",
+            "uri": "widgets/Legend/Widget",
+            "config": "configs/Legend/config_Legend.json"
+        }, {
+            "uri": "widgets/OverviewMap/Widget",
+            "position": {
+                "right": 0,
+                "bottom": 0
+            },
+            "version": "1.1",
+            "id": "widgets/OverviewMap/Widget_25",
+            "positionRelativeTo": "map",
+            "name": "OverviewMap",
+            "label": "Overview Map"
+        }, {
+            "uri": "widgets/MyLocation/Widget",
+            "position": {
+                "left": 7,
+                "top": 110
+            },
+            "version": "1.1",
+            "id": "widgets/MyLocation/Widget_26",
+            "positionRelativeTo": "map",
+            "name": "MyLocation",
+            "label": "My Location"
+        }, {
+            "uri": "widgets/AttributeTable/Widget",
+            "positionRelativeTo": "browser",
+            "position": {
+                "bottom": 24
+            },
+            "version": "1.1",
+            "id": "widgets/AttributeTable/Widget_27",
+            "name": "AttributeTable",
+            "label": "Attribute Table"
+        }, {
+            "uri": "widgets/Splash/Widget",
+            "visible": false,
+            "positionRelativeTo": "browser",
+            "version": "1.1",
+            "id": "widgets/Splash/Widget_28",
+            "position": {
+                "left": 0,
+                "top": 0
+            },
+            "name": "Splash",
+            "label": "Splash"
+        }],
+        "panel": {
+            "uri": "jimu/PreloadWidgetIconPanel",
+            "positionRelativeTo": "map"
+        }
+    },
+    "map": {
+        "3D": false,
+        "2D": true,
+        "position": {
+            "top": 44,
+            "right": 0,
+            "bottom": 24,
+            "left": 55
+        },
+        "itemId": "6e03e8c26aad4b9c92a87c1063ddb0e3",
+        "mapOptions": {
+            "extent": {
+                "xmin": -8647894.287611768,
+                "ymin": 4675385.49060406,
+                "xmax": -8559609.519942507,
+                "ymax": 4743185.13469292,
+                "spatialReference": {
+                    "wkid": 102100
+                }
+            }
+        },
+        "id": "map",
+        "portalUrl": "https://dcservices.maps.arcgis.com/"
+    },
+    "widgetPool": {
+        "panel": {
+            "uri": "themes/TabTheme/panels/TabPanel/Panel",
+            "positionRelativeTo": "browser",
+            "position": {
+                "top": 44,
+                "left": 0,
+                "bottom": 22
+            }
+        },
+        "widgets": [{
+            "uri": "widgets/LayerList/Widget",
+            "version": "1.1",
+            "id": "widgets/LayerList/Widget_14",
+            "index": 2,
+            "name": "LayerList",
+            "label": "Layer List"
+        }, {
+            "name": "Directions",
+            "label": "Directions",
+            "version": "1.1",
+            "uri": "widgets/Directions/Widget",
+            "config": "configs/Directions/config_Directions.json",
+            "index": 3,
+            "id": "widgets/Directions/Widget_29"
+        }, {
+            "name": "BasemapGallery",
+            "label": "Basemap Gallery",
+            "version": "1.1",
+            "uri": "widgets/BasemapGallery/Widget",
+            "config": "configs/BasemapGallery/config_Basemap Gallery.json",
+            "index": 4,
+            "id": "widgets/BasemapGallery/Widget_30"
+        }, {
+            "name": "Print",
+            "label": "Print",
+            "version": "1.1",
+            "uri": "widgets/Print/Widget",
+            "config": "configs/Print/config_Print.json",
+            "index": 5,
+            "id": "widgets/Print/Widget_31"
+        }, {
+            "name": "Wizard",
+            "label": "Wizard",
+            "version": "1.1",
+            "uri": "widgets/Wizard/Widget",
+            "config": "configs/Wizard/config_wizard.json",
+            "index": 1,
+            "id": "widgets/Wizard/Widget_32"
+        },{
+            "name": "Geoprocessing",
+            "label": "Elevation",
+            "version": "1.1",
+            "uri": "widgets/Geoprocessing/Widget",
+            "config": "configs/Geoprocessing/config_Elevation.json",
+            "index": 7,
+            "id": "widgets/Geoprocessing/Widget_33"
+        }],
+        "groups": []
+    },
+    "wabVersion": "1.1",
+    "isWebTier": false,
+    "httpProxy": {
+        "useProxy": true,
+        "alwaysUseProxy": false,
+        "url": "",
+        "rules": []
+    },
+    "appId": ""
+}
