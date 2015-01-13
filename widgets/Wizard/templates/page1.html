@@ -2,10 +2,6 @@
     <h1 class="wizard_Title">Welcome to the Geostatistical Tool Wizard</h1>
     <h2 class="wizard_Subtitle" >Click here to see Tool Overview and description of inputs required below</h2>
     <form data-dojo-type="dijit/form/Form" class="wizardContent" enctype="multipart/form-data" method="" action="">
-        <script type="dojo/require">
-            on:"dojo/on",
-            registry:"dijit/registry"
-        </script>
         <table class="formContainer">
             <tr>
                 <td>
@@ -43,12 +39,6 @@
                 </td>
             </tr>
         </table>
-        <script type="dojo/method">
-            console.log(this);
-            on(this, "onChange", function(evt){
-                console.log(evt);
-            });
-        </script>
     </form>
     <div class="ButtonContainer">
         <div class="exit" data-dojo-type="dijit/form/Button" data-dojo-attach-event="onClick:_exit">Exit</div>

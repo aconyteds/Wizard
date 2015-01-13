@@ -1,9 +1,9 @@
 define(['dojo/_base/declare','dijit/_WidgetBase','dijit/_TemplatedMixin','dijit/_WidgetsInTemplateMixin', "dojo/Stateful", "dojo/topic", "dojo/_base/lang", "dojo/dom-construct",
-"dojox/form/Uploader", "dijit/form/Form", "dijit/form/Button", "dijit/form/Select", "dijit/form/TextBox", "dojo/on",
+"dojox/form/Uploader", "dijit/form/Form", "dijit/form/Button", "dijit/form/Select", "dijit/form/TextBox",
 'dojo/text!./templates/wizard.html', 'dojo/text!./templates/page1.html', 'dojo/text!./templates/page2.html', 'dojo/text!./templates/page3.html', 'dojo/text!./templates/page4.html',
 'dojo/text!./templates/page5.html', 'dojo/text!./templates/page6.html'],
     function(declare, _WidgetBase, _TemplatedMixin, _WidgetsInTemplateMixin, Stateful, topic, lang, domConstruct,
-    Uploader, Form, Button,  Select, TextBox, on, 
+    Uploader, Form, Button,  Select, TextBox, 
     wizardTemplate, page1Template, page2Template, page3Template, page4Template, 
     page5Template, page6Template){
         var WizardDijit=declare([_WidgetBase, _TemplatedMixin,  Stateful],{
