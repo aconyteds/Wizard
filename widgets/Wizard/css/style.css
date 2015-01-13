@@ -6,3 +6,33 @@
   font-size: 14px;
   font-style: normal;
 }
+.jimu-widget-wizard .wizard_Title {
+  margin-top: 0;
+  font-weight: bold;
+  text-decoration: underline;
+  text-align: center;
+  display: block;
+}
+.jimu-widget-wizard .wizard_Subtitle {
+  text-align: center;
+  display: block;
+  margin-top: 0;
+  font-weight: normal;
+}
+.jimu-widget-wizard .ButtonContainer {
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+}
+.jimu-widget-wizard .ButtonContainer .next {
+  float: right;
+  margin-right: 10%;
+}
+.jimu-widget-wizard .ButtonContainer .next .dijitButtonText:after {
+  content: "->";
+  font-weight: bold;
+}
+.jimu-widget-wizard .ButtonContainer .exit {
+  float: left;
+  margin-left: 10%;
+}

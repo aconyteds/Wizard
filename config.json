@@ -128,19 +128,35 @@
             "config": "configs/Draw/config_Draw.json"
         }, {
             "position": {
-                "right": 10,
+                "right": 160,
                 "top": 10,
                 "width": 380,
                 "height": 410
             },
             "placeholderIndex": 1,
-            "id": "_24",
+            "id": "_31",
             "positionRelativeTo": "map",
-            "name": "Legend",
-            "label": "Legend",
+            "name": "Print",
+            "label": "Print",
             "version": "1.1",
-            "uri": "widgets/Legend/Widget",
-            "config": "configs/Legend/config_Legend.json"
+            "uri": "widgets/Print/Widget",
+            "config": "configs/Print/config_Print.json"
+        }, {
+            "position": {
+                "right": 10,
+                "top": 10,
+                "width": 580,
+                "height": 350
+            },
+            "placeholderIndex": 1,
+            "id": "_32",
+            "positionRelativeTo": "map",
+            "name": "Wizard",
+            "label": "Geostatistical Tool Wizard",
+            "version": "1.1",
+            "uri": "widgets/Wizard/Widget",
+            "config": "configs/Wizard/config_wizard.json",
+            "openAtStart":true
         }, {
             "uri": "widgets/OverviewMap/Widget",
             "position": {
@@ -229,49 +245,25 @@
             "uri": "widgets/LayerList/Widget",
             "version": "1.1",
             "id": "widgets/LayerList/Widget_14",
-            "index": 2,
+            "index": 1,
             "name": "LayerList",
             "label": "Layer List"
-        }, {
-            "name": "Directions",
-            "label": "Directions",
-            "version": "1.1",
-            "uri": "widgets/Directions/Widget",
-            "config": "configs/Directions/config_Directions.json",
-            "index": 3,
-            "id": "widgets/Directions/Widget_29"
         }, {
             "name": "BasemapGallery",
             "label": "Basemap Gallery",
             "version": "1.1",
             "uri": "widgets/BasemapGallery/Widget",
             "config": "configs/BasemapGallery/config_Basemap Gallery.json",
-            "index": 4,
+            "index": 2,
             "id": "widgets/BasemapGallery/Widget_30"
-        }, {
-            "name": "Print",
-            "label": "Print",
-            "version": "1.1",
-            "uri": "widgets/Print/Widget",
-            "config": "configs/Print/config_Print.json",
-            "index": 5,
-            "id": "widgets/Print/Widget_31"
-        }, {
-            "name": "Wizard",
-            "label": "Wizard",
-            "version": "1.1",
-            "uri": "widgets/Wizard/Widget",
-            "config": "configs/Wizard/config_wizard.json",
-            "index": 1,
-            "id": "widgets/Wizard/Widget_32"
         },{
-            "name": "Geoprocessing",
-            "label": "Elevation",
+            "name": "Legend",
+            "label": "Legend",
             "version": "1.1",
-            "uri": "widgets/Geoprocessing/Widget",
-            "config": "configs/Geoprocessing/config_Elevation.json",
-            "index": 7,
-            "id": "widgets/Geoprocessing/Widget_33"
+            "uri": "widgets/Legend/Widget",
+            "config": "configs/Legend/config_Legend.json",
+            "index":3,
+            "id": "widgets/Legend/Widget_24"
         }],
         "groups": []
     },

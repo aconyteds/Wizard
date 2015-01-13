@@ -1,7 +1,6 @@
 define({
   root: ({
-    _widgetLabel: "Wizard",
-    uploaderTitle:"Please choose a file to upload:"
+    _widgetLabel: "Geostatistical Tool Wizard"
   }),
   "ar": 0,
   "cs": 0,
