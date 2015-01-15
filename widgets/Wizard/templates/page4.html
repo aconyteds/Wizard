@@ -1,23 +1,5 @@
 <div>
-    <span>Processing complete.</span>
-    <p>Results based on different calculations are displayed to the right.</p>
-    <p>Toggle the display of each result by checking the box in the Table of Contents or use the Swipe Tool to compare.</p>
-    <br/>
-    <span>Then...</span>
-    <p>Choose the result below that best represents the data and click Next.</p>
-    <p>(click here for help on choosing the best representation)</p>
-    <div data-dojo-type="dijit/form/Form">
-        <select data-dojo-type="dijit/form/Select">
-            <option value="1" selected="selected">Result 1</option>
-            <option value="2" selected="selected">Result 2</option>
-            <option value="3" selected="selected">Result 3</option>
-            <option value="4" selected="selected">Result 4</option>
-            <option value="5" selected="selected">Result 5</option>
-            <option value="6" selected="selected">Result 6</option>
-            <option value="7" selected="selected">Result 7</option>
-            <option value="8" selected="selected">Result 8</option>
-        </select>
-    </div>
+    <div data-dojo-type="widgets/Wizard/multiMapSelect/multiMapSelect" data-dojo-props="selections:4"></div>
     <div class="ButtonContainer">
         <div class="exit" data-dojo-type="dijit/form/Button" data-dojo-attach-event="onClick:_exit">Exit</div>
         <div class="next" data-dojo-type="dijit/form/Button" data-dojo-attach-event="onClick:_next">Confirm Selection & Continue</div>

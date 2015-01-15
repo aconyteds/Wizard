@@ -1,22 +1,22 @@
 define(['dojo/_base/declare','dijit/_WidgetBase','dijit/_TemplatedMixin','dijit/_WidgetsInTemplateMixin', "dojo/Stateful", "dojo/topic", "dojo/_base/lang", "dojo/dom-construct",
 "dojox/form/Uploader", "dijit/form/Form", "dijit/form/Button", "dijit/form/Select", "dijit/form/TextBox",
 'dojo/text!./templates/wizard.html', 'dojo/text!./templates/page1.html', 'dojo/text!./templates/page2.html', 'dojo/text!./templates/page3.html', 'dojo/text!./templates/page4.html',
-'dojo/text!./templates/page5.html', 'dojo/text!./templates/page6.html'],
+'dojo/text!./templates/page5.html', 'dojo/text!./templates/page6.html', "./multiMapSelect/multiMapSelect"],
     function(declare, _WidgetBase, _TemplatedMixin, _WidgetsInTemplateMixin, Stateful, topic, lang, domConstruct,
     Uploader, Form, Button,  Select, TextBox, 
     wizardTemplate, page1Template, page2Template, page3Template, page4Template, 
-    page5Template, page6Template){
+    page5Template, page6Template, multiMapSelect){
         var WizardDijit=declare([_WidgetBase, _TemplatedMixin,  Stateful],{
             templateString: wizardTemplate,
             _currPage:0,
-            _pages:[page1Template, page2Template, page3Template, page4Template, page5Template, page6Template],
+            _pages:[page4Template, page1Template, page2Template, page3Template,  page5Template, page6Template],
             _subscriptions:[],
             postCreate:function(){
                 this.watch("_currPage", function(name, oldValue, value){
                     this._changePage();
                 });
                 this._subscriptions.push(topic.subscribe("wizard/Next", lang.hitch(this, this._next)));
-                this._subscriptions.push(topic.subscribe("wizard/Exit", lang.hitch(this,this._exit)));
+                this._subscriptions.push(topic.subscribe("wizard/Exit", lang.hitch(this, this._exit)));
             },
             startup:function(){
                 this._changePage();
