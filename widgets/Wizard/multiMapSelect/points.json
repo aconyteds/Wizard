@@ -1,7 +1,14 @@
 {
+    "extent":{
+        "spatialReference":{"wkid": 102100},
+        "xmax": -12939017.57535016,
+        "xmin": -13917411.537400154,
+        "ymax": 4938560.8076203745,
+        "ymin": 3960166.8455703785,
+        "type":"extent"
+    },
     "geometry":{
         "points":[
-            [-125.77466669966134,40.442000000230756],
             [-118.630166700313,34.617333299779709],
             [-118.39849849992666,35.512832599970793],
             [-122.46233329989086,38.804500000099189],
@@ -14,11 +21,11 @@
             [-122.67617030031522,38.901832600061752],
             [-116.56800000008703,33.547499999897603]
         ],
-        "spatialReference":4326
+        "spatialReference":{"wkid":4326}
     },
     "symbol":{
-        "color":[255,255,255,64],
-        "size":12,
+        "color":[255,255,255,65],
+        "size":3,
         "angle":0,
         "xoffset":0,
         "yoffset":0,
@@ -26,11 +33,6 @@
         "cy":1,
         "type":"esriSMS",
         "style":"esriSMSCircle",
-        "outline":{
-            "color":[0,0,0,255],
-            "width":1,
-            "type":"esriSLS",
-            "style":"esriSLSSolid"
-        }
+        "outline": {"color":[0,0,0,255],"width":1,"type":"esriSLS","style":"esriSLSSolid"}
     }
 }
