@@ -4,10 +4,8 @@ define(['dojo/_base/declare','jimu/BaseWidget','jimu/portalUtils','dojo/_base/la
           baseClass: "jimu-widget-wizard",
           name: "Wizard",
           className: "esri.widgets.Wizard",
-      
           postCreate: function() {
               this.inherited(arguments);
-      
               this.shelter = new LoadingShelter({
                   hidden: true
               });
